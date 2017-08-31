@@ -2,6 +2,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
 
@@ -31,6 +32,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         return homeworkArray.count
     }
+    
+    
+    @IBAction func addAssignments(_ sender: UIBarButtonItem)
+    {
+    
+        let alert = UIAlertController(title: "Add Assignment", message: nil, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addTextField
+        {
+            (textField) -> Void in
+            textField.placeholder = "Assignment Name"
+            
+        }
+        
+        
+    
+    
+    }
+    
 
 }
 
