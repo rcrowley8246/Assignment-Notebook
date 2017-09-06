@@ -1,22 +1,38 @@
-//
-//  ViewController.swift
-//  assignmentNotebook
-//
-//  Created by apcs2 on 8/30/17.
-//  Copyright © 2017 apcs2. All rights reserved.
-//
+
 
 import UIKit
 
-class ViewController: UIViewController
+
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var homeworkArray = ["", "", "", ""]
+    
+    
     override func viewDidLoad()
+    
     {
         super.viewDidLoad()
-       
+        
     }
 
+   
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+    
+    let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+    
+    return cell
+    
+    }
+    
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return homeworkArray.count
+
+    }
 
 }
 
