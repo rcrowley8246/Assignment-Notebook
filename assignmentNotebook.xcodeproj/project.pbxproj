@@ -15,6 +15,7 @@
 		219AA3041F57032B0064BD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219AA3021F57032B0064BD52 /* LaunchScreen.storyboard */; };
 		219AA30F1F57032B0064BD52 /* assignmentNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219AA30E1F57032B0064BD52 /* assignmentNotebookTests.swift */; };
 		219AA31A1F57032B0064BD52 /* assignmentNotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219AA3191F57032B0064BD52 /* assignmentNotebookUITests.swift */; };
+		21D74C391F603FA70057E4DD /* addAssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D74C381F603FA70057E4DD /* addAssignmentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		219AA3151F57032B0064BD52 /* assignmentNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignmentNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219AA3191F57032B0064BD52 /* assignmentNotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentNotebookUITests.swift; sourceTree = "<group>"; };
 		219AA31B1F57032B0064BD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D74C381F603FA70057E4DD /* addAssignmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addAssignmentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				219AA2F61F57032B0064BD52 /* AppDelegate.swift */,
 				219AA2F81F57032B0064BD52 /* ViewController.swift */,
 				219AA2FA1F57032B0064BD52 /* Main.storyboard */,
+				21D74C381F603FA70057E4DD /* addAssignmentsViewController.swift */,
 				219AA3001F57032B0064BD52 /* Assets.xcassets */,
 				219AA3021F57032B0064BD52 /* LaunchScreen.storyboard */,
 				219AA3051F57032B0064BD52 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				219AA2F91F57032B0064BD52 /* ViewController.swift in Sources */,
+				21D74C391F603FA70057E4DD /* addAssignmentsViewController.swift in Sources */,
 				219AA2FF1F57032B0064BD52 /* assignmentNotebook.xcdatamodeld in Sources */,
 				219AA2F71F57032B0064BD52 /* AppDelegate.swift in Sources */,
 			);
@@ -511,6 +515,7 @@
 				219AA3201F57032B0064BD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219AA3211F57032B0064BD52 /* Build configuration list for PBXNativeTarget "assignmentNotebookTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				219AA3231F57032B0064BD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219AA3241F57032B0064BD52 /* Build configuration list for PBXNativeTarget "assignmentNotebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				219AA3261F57032B0064BD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
