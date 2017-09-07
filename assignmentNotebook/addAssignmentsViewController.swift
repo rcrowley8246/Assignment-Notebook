@@ -19,20 +19,15 @@ class addAssignmentsViewController: UIViewController
     }
 
   
-    @IBAction func pushAssignmentButton(_ sender: UIButton)
+    @IBAction func pushAssignmentDetailsButton(_ sender: UIButton)
     {
     
-    
+       
+       
     
     }
 
-    @IBAction func pushDateButton(_ sender: UIButton)
-    
-    {
     
     
-    
-    }
-   
 
 }

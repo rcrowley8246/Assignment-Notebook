@@ -14,7 +14,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var classesArray = ["APWH", "APCSP", "HWLC", "Spanish", "Intro-Engineering", "Health/StudyHall", "PreCalc", "HChem"]
     var textfield = ""
-    var 
     
     override func viewDidLoad()
     
