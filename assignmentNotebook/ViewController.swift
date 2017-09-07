@@ -6,10 +6,15 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
 
+    
+   let defaults = UserDefaults.standard
+    
+    @IBOutlet weak var assignmentsTextView: UITextView!
     @IBOutlet weak var tableView: UITableView!
     
-    var homeworkArray = ["", "", "", ""]
-    
+    var classesArray = ["APWH", "APCSP", "HWLC", "Spanish", "Intro-Engineering", "Health/StudyHall", "PreCalc", "HChem"]
+    var textfield = ""
+    var 
     
     override func viewDidLoad()
     
@@ -30,9 +35,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return homeworkArray.count
 
-    }
-
-}
 
